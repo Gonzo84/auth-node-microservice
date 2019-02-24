@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-auth-microservice",
+  "version": "1.0.0",
+  "description": "JWT authentication microservice ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect app.js",
+    "start-server": "node app.js"
+  },
+  "author": "Marko Krstic",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "1.18.3"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.18.3",
+    "express": "4.16.3",
+    "jsonwebtoken": "8.5.0",
+    "mongodb": "3.1.6",
+    "mongoose": "5.2.17",
+    "nodemailer": "5.1.1"
+  }
+}

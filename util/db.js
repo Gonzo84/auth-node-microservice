@@ -1,0 +1,1 @@
+exports.dbUri = 'mongodb+srv://kum:PHL6iGBNiXcO7y4o@kumov-sajt-xhyh3.mongodb.net/dev?retryWrites=true';
