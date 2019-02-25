@@ -1,1 +1,1 @@
-exports.secret = 'supersecret';
+exports.secret = process.env.jwt_secret || 'supersecret';

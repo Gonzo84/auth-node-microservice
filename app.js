@@ -12,15 +12,8 @@ const verifyToken = require('./controllers/verifyToken');
 
 app.use(bodyParser.urlencoded({extended: false}));
 
-app.use((req, res, next) => {
-    User.findById('5bab316ce0a7c75f783cb8a8')
-        .then(user => {
-            req.user = user;
-            next();
-        })
-        .catch(err => console.log(err));
-});
 app.use(verifyToken.verify);
+
 app.use(authRoutes);
 
 app.use(errorHandler.errorHandler);

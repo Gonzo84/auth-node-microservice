@@ -5,11 +5,11 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --inspect app.js",
-    "start-server": "node app.js"
+    "start": "node app.js",
+    "start:dev": "nodemon --inspect app.js"
   },
   "author": "Marko Krstic",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "nodemon": "1.18.3"
   },
