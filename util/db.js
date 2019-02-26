@@ -1,1 +1,1 @@
-exports.dbUri = process.env.db_uri || 'mongodb+srv://kum:PHL6iGBNiXcO7y4o@kumov-sajt-xhyh3.mongodb.net/dev?retryWrites=true';
+exports.dbUri = 'mongodb+srv://kum:PHL6iGBNiXcO7y4o@kumov-sajt-xhyh3.mongodb.net/dev?retryWrites=true';
